@@ -1,0 +1,92 @@
+﻿
+@{
+    ViewData["Title"] = "InsertPlayer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="container">
+        <div class="alert alert-primary" role="alert">
+            Ingresar Jugador
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="jumbotron col-md-7">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Nombre Del Jugador</label>
+                    <input type="text" class="form-control" id="nameTeam" placeholder="Ejemplo:Maria ">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Apellido Paterno</label>
+                    <input type="text" class="form-control" id="nameTeam" placeholder="Ejemplo:Perez">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Apellido Materno</label>
+                    <input type="text" class="form-control" id="nameTeam" placeholder="Ejemplo:Mora">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Equipo</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Tomateros</option>
+                        <option>Esmeralda</option>
+                        <option>Mexicali</option>
+                        <option>Ensenada</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Direccion</label>
+                    <input type="text" class="form-control" id="nameTeam" placeholder="Ejemplo.. Avenida rio balsas">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Colonia</label>
+                    <input type="text" class="form-control" id="nameTeam" placeholder="Ejemplo.. Patria ">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Municipio</label>
+                    <input type="text" class="form-control" id="nameTeam" placeholder="Mexicali">
+                </div>
+                <div class="border border-light">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Nombre Contacto de Emergencia</label>
+                        <input type="text" class="form-control" id="nameTeam" placeholder="Nombre Completo">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Telefono Contacto De Emergencia</label>
+                        <input type="tel" class="form-control" id="nameTeam" placeholder="Telefono">
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile02" onchange="readURL(this);">
+                        <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Choose file</label>
+                    </div>
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="inputGroupFileAddon02">Upload</span>
+                    </div>
+                    <img id="blah" src="http://placehold.it/180" alt="your image" style="max-width:180px;"/>
+                </div>
+
+
+                <div class="border-1">
+                    <button type="button" class="btn btn-success">Guardar</button>
+                    <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+<script>
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#blah')
+                    .attr('src', e.target.result);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>
+

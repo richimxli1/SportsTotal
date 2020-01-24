@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MxliRegister.Api", "MxliRegister.Api\MxliRegister.Api.csproj", "{69C0C051-0C98-4EEF-8A83-F5A6344884BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MxliRegister.MVC", "MxliRegister.MVC\MxliRegister.MVC.csproj", "{0ADA68DC-BA09-498E-87AD-A45009E5646E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69C0C051-0C98-4EEF-8A83-F5A6344884BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C0C051-0C98-4EEF-8A83-F5A6344884BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C0C051-0C98-4EEF-8A83-F5A6344884BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C0C051-0C98-4EEF-8A83-F5A6344884BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ADA68DC-BA09-498E-87AD-A45009E5646E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADA68DC-BA09-498E-87AD-A45009E5646E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADA68DC-BA09-498E-87AD-A45009E5646E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADA68DC-BA09-498E-87AD-A45009E5646E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4250AC35-738C-4771-AF82-BE55731C1DD0}
+	EndGlobalSection
+EndGlobal
